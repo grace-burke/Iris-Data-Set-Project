@@ -11,7 +11,8 @@ Data collected by Edgar Anderson to quantify morphologic variation of Iris flowe
 Collected in Gaspé Peninsula, Quebec, Canada
 Ref: The Species Problem in Iris
 Typical test case for many statistical classification techniques in machine learning such as support vector machines
-Description of Data
+
+### Description of Data
 50 samples each of 3 different Iris species (Iris setosa, Iris virginica and Iris versicolor)
 Length & width of sepal and petal (cm)
 
