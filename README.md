@@ -4,8 +4,7 @@ Programming &amp; Scripting 2018
 ## Fisher’s Iris Data Set
 
 ### History of Data
-British statistician and biologist Ronald Fisher\
-1936 (FISHER, 1936)\
+British statistician and biologist Ronald Fisher (FISHER, 1936)\
 Data collected Gaspé Peninsula, Quebec, Canad by Edgar Anderson to quantify morphologic variation of Iris flowers of three related species (Anderson, 1936)\
 Typical test case for many statistical classification techniques in machine learning such as support vector machines (Archive.ics.uci.edu, 2018)
 
