@@ -18,7 +18,15 @@ with open('Data/IrisData.csv') as f:
     # print(Iris)
     
     print(Iris.describe())
+    print(Iris[0:50].describe())
+    print(Iris[50:100].describe())
+    print(Iris[100:150].describe())
     print(Iris.groupby('Class').describe())
-    Iris.hist()
-    Iris.groupby('Class').hist()
+    
+    bin_values = np.arange(start=0, stop=8, step=0.2)
+    Iris.plot(kind='hist',bins=bin_values, alpha=0.6)
+    Iris.groupby('Class').plot(kind='hist',bins=bin_values, alpha=0.6)
+    # https://community.modeanalytics.com/python/tutorial/python-histograms-boxplots-and-distributions/
+
+
     plt.show()
