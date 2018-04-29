@@ -31,7 +31,11 @@ One class is linearly separable from the other 2; the latter are not linearly se
 
 
 ### Graphs
-![Histogram of All Iris Data]()
+![Figure 1 - Histogram of All Iris Data](Figure 1 - Iris Dataset Histogram.jpeg)
+![Figure 2 - Histogram of Iris Setosa Data](Figure 2 - Iris Setosa Histogram.jpeg)
+![Figure 2 - Histogram of Iris Versicolor Data](Figure 3 - Iris Versicolor Histogram.jpeg)
+![Figure 2 - Histogram of Iris Virginica Data](Figure 4 - Iris Virginica Histogram.jpeg)
+
 
 ### References
 FISHER, R. (1936). THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS. Annals of Eugenics, 7(2), pp.179-188.\
