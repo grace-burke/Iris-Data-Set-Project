@@ -42,7 +42,7 @@ with open("Output File.txt","w") as outputfile:
         Iris.loc[Iris['Class'] == x].plot(kind='hist',bins=bin_values, alpha=0.6, title = x[:4]+" "+x.replace(x[:5], '')+" Analysis").set_xlabel("(cm)")
 
     # This variable accepts user input which will then determine whether while loop below is run
-    AnalyseAgain = input("Would you like to analyse an individual iris class? y/n: ") 
+    AnalyseAgain = input("A summary of the iris dataset has been written to Output File.txt. \n Would you like to analyse an individual iris class? y/n: ") 
     # When the user has selected yes, while loop runs to analyse data filtered by iris class nominated by user
     
     while AnalyseAgain == "y":
@@ -62,7 +62,7 @@ with open("Output File.txt","w") as outputfile:
         # Runs analysis function with iris class provided by user
         AnalyseIris(IrisType)
         # This gives the user the option to run the while loop again to analyse another class of iris
-        AnalyseAgain = input("Would you like to analyse another iris class? y/n: ")
+        AnalyseAgain = input("This data has been analysed, a summary is available in Output File.txt. Would you like to analyse another iris class? y/n: ")
         
 # This uses the matplotlib.pyplot library to show each of the histograms produced above in individual windows       
 plt.show()    
