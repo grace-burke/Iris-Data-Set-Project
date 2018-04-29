@@ -1,7 +1,8 @@
+# Grace Burke
+# 29/04/2018
+
 # Iris Data Set
 # http://archive.ics.uci.edu/ml/datasets/Iris
-
-# https://www.kaggle.com/ashokdavas/iris-data-analysis-pandas-numpy
 
 import pandas as pd
 import numpy as np
