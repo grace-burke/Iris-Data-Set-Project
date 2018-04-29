@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 
 # Allows analysis output to be printed into new text file
 with open("Output File.txt","w") as outputfile:
+# http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python
     
     # Opens data file to read data
     with open('Data/IrisData.csv') as f:
