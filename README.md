@@ -32,6 +32,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
 |------|-------------:|------------:|-------------:|-----------:|
+|count |      150.00  |    150.00   |    150.00    |  150.00    |
 |mean  |        5.84  |      3.05   |      3.76    |    1.20    |
 |std   |        0.83  |      0.43   |      1.76    |    0.76    |
 |min   |        4.30  |      2.00   |      1.00    |    0.10    |
