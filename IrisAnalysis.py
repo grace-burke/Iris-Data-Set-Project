@@ -43,6 +43,7 @@ with open("Output File.txt","w") as outputfile:
     # This variable accepts user input which will then determine whether while loop below is run
     AnalyseAgain = input("Would you like to analyse an individual iris class? y/n: ") 
     # When the user has selected yes, while loop runs to analyse data filtered by iris class nominated by user
+    
     while AnalyseAgain == "y":
         # Sets initial value of IrisType to ensure that while loop below will run at least once
         IrisType = 1
