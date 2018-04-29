@@ -33,6 +33,17 @@ One class is linearly separable from the other 2; the latter are not linearly se
 8. The program will also output histograms for the overall dataset and for each of the iris classes selected. These will appear in individual windows and can be saved as images if required.
 
 ## Results of Analysis
+Below is the contents of "Output File.txt" when analysis has been carried out for each of the iris classes in turn.\
+The statistics produced for each column are as follows:\
+- Count: This gives the total number of data points analysed
+- Mean: This gives the arithmetic mean of the data points analysed
+- Std: This gives the standard deviation of the data points
+- Min: This gives the minimum value of the data points
+- 25%: This gives the 25th percentile of the data points, or the value below which 25% of the data points fall
+- 50%: This gives the 50th percentile of the data points, or the value below which 50% of the data points fall
+- 75%: This gives the 75 percentile of the data points, or the value below which 75of the data points fall
+- Max: This gives the maximum value of the data points
+
 #### All Iris Classes
 
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
