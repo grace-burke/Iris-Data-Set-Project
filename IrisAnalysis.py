@@ -31,14 +31,12 @@ with open("Output File.txt","w") as outputfile:
 
     # Function which takes iris class as input and produces summary of each column of data and histogram for that iris class only
     def AnalyseIris(x):
-        # if operation ensures that the summary table is not printed if incorrect iris class name is entered
-        if x in ("Iris-setosa", "Iris-versicolor", "Iris-virginica"):
-            # Writes iris class to output text file removing the dash between words
-            outputfile.write(x[:4]+" "+x.replace(x[:5], '')+"\n")
-            # https://stackoverflow.com/questions/11806559/removing-first-x-characters-from-string
-            # Filters dataframe by iris class, writes summary of data to output text file as before
-            outputfile.write(Iris.loc[Iris['Class'] == x].describe().round(decimals=2).to_string()+"\n\n")
-            # https://stackoverflow.com/questions/31756340/selecting-rows-from-a-dataframe-based-on-values-in-multiple-columns-in-pandas
+        # Writes iris class to output text file removing the dash between words
+        outputfile.write(x[:4]+" "+x.replace(x[:5], '')+"\n")
+        # https://stackoverflow.com/questions/11806559/removing-first-x-characters-from-string
+        # Filters dataframe by iris class, writes summary of data to output text file as before
+        outputfile.write(Iris.loc[Iris['Class'] == x].describe().round(decimals=2).to_string()+"\n\n")
+        # https://stackoverflow.com/questions/31756340/selecting-rows-from-a-dataframe-based-on-values-in-multiple-columns-in-pandas
         # Plots filtered data as histogram
         Iris.loc[Iris['Class'] == x].plot(kind='hist',bins=bin_values, alpha=0.6, title = x[:4]+" "+x.replace(x[:5], '')+" Analysis").set_xlabel("(cm)")
 
@@ -53,11 +51,14 @@ with open("Output File.txt","w") as outputfile:
             try:
                 # Prompts user to input iris class for analysis
                 IrisType = input("Which class of iris would you like to analyse? (Iris-setosa/Iris-versicolor/Iris-virginica): ")
-                # Runs analysis function with iris class provided by user
-                AnalyseIris(IrisType)
+                # Creates an error if iris class entered by user does not match the iris classes in the data
+                if IrisType not in ("Iris-setosa", "Iris-versicolor", "Iris-virginica"):
+                    raise TypeError
             except TypeError:
                 # If running AnalyseIris above produces a TypeError because the user has entered an iris type that does not match an iris type in the data, this gives the user an error message and the while loop will run again prompting the user to enter iris type again
                 print("Error: Please enter iris class exactly as shown above.")
+        # Runs analysis function with iris class provided by user
+        AnalyseIris(IrisType)
         # This gives the user the option to run the while loop again to analyse another class of iris
         AnalyseAgain = input("Would you like to analyse another iris class? y/n: ")
         
