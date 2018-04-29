@@ -9,7 +9,7 @@ This is the final assignment for GMIT's Programming and Scripting module 2018 as
 ## Fisher’s Iris Data Set
 
 ### History of Data
-The iris flower dataset was introduced by British statistician and biologist Ronald Fisher (Fisher, 1936). The data was collected in the Gaspé Peninsula, Quebec, Canada by Edgar Anderson for use in his research to quantify morphologic variation of Iris flowers of three related species (Anderson, 1936).\
+The iris flower dataset was first published by British statistician and biologist Ronald Fisher (Fisher, 1936). The data was collected in the Gaspé Peninsula, Quebec, Canada by Edgar Anderson for use in his research to quantify morphologic variation of Iris flowers of three related species (Anderson, 1936).\
 Since this time it has become the test case for many statistical classification techniques in machine learning (Archive.ics.uci.edu, 2018). It is now the best known database to be found in pattern recognition literature.
 
 ### Description of Data
