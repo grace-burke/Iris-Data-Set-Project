@@ -2,6 +2,10 @@ Iris Data Set Project
 ========================
 Programming &amp; Scripting 2018
 
+## Purpose
+This repository contains a python program, data and materials relating to Fisher's iris dataset.
+This is for the final assignment for GMIT's Programming and Scripting module 2018 as part of the Higher Diploma in Data Analytics. The purpose of the project is to research and analyse the iris dataset and present the results.
+
 ## Fisher’s Iris Data Set
 
 ### History of Data
@@ -19,6 +23,15 @@ Best known database to be found in pattern recognition literature.
 Multivariate – Observation and analysis of more than one outcome variable\
 Example of linear discriminant analysis – Pattern recognition to find a linear combination of features that characterises classes of objects. Used to distinguish Iris species from each other by features.\
 One class is linearly separable from the other 2; the latter are not linearly separable from each other. 
+
+### How to Use Python Program IrisAnalysis.py
+
+
+### Summary of Data
+
+
+### Graphs
+![Histogram of All Iris Data]()
 
 ### References
 FISHER, R. (1936). THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS. Annals of Eugenics, 7(2), pp.179-188.\
