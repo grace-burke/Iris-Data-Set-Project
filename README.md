@@ -32,6 +32,18 @@ One class is linearly separable from the other 2; the latter are not linearly se
 7. The program will output a file named "Ouptut File.txt" in the project folder which will contain tables of summary statistics of the overall dataset and for each of the iris classes selected by the user previously.
 8. The program will also output histograms for the overall dataset and for each of the iris classes selected. These will appear in individual windows and can be saved as images if required.
 
+## What IrisAnalysis.py Does
+1. Creates blank text file to which output will be written
+2. Reads data from csv file in data folder and gives it headings
+3. Produces summary statistics for each column of data using dataframe.describe() function
+4. Plots a histogram showing frequency of values under each heading of data
+5. Asks if user would like to analyse data for an individual class of iris
+6. Checks user input to ensure that it is in the correct format, excepts error if not and prompts user to try again
+7. Carries out same analysis as above (summary statistics and histogram) for individual class of iris if requested
+8. Asks if user would like to analyse another individual class of iris
+9. Repeats steps 7 and 8 above until the user responds that they do not want to carry out any further analysis
+10. Once all analysis is finished the output is written to the output text file and the histograms created are displayed each in individual windows.
+
 ## Results of Analysis
 Below is the contents of "Output File.txt" when analysis has been carried out for each of the iris classes in turn.\
 The statistics produced for each column are as follows:
