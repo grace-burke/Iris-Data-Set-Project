@@ -17,10 +17,7 @@ The dataset contains 50 samples each of 3 different Iris species (Iris setosa, I
 
 ### Previous Analysis of Data
 #### Fisher
-Fisher used the iris dataset for multivariate analysis, meaning that observation and analysis were carried out simultaneously for more than one outcome variable. 
-
-Example of linear discriminant analysis – Pattern recognition to find a linear combination of features that characterises classes of objects. Used to distinguish Iris species from each other by features.\
-One class is linearly separable from the other 2; the latter are not linearly separable from each other. 
+Fisher used the iris dataset for multivariate analysis, meaning that observation and analysis were carried out simultaneously for more than one outcome variable. He aimed to find a linear function of sepal length, sepal width, petal length and petal width which could then be used to identify the class of iris. This was achieved by finding the linear function which would maximise the ratio of the difference between the means to the standard deviation within a species. This an example of linear discriminant analysis, which is the process of pattern recognition in order to find a linear combination of features that characterises classes of objects. Fisher found that while the iris-setosa class is linearly separable from the other two classes, the latter two classes are not linearly separable from each other.
 
 ## How to Use Python Program IrisAnalysis.py
 1. Download project folder from Github to a local location.
