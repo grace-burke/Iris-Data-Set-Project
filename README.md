@@ -4,7 +4,7 @@ Programming &amp; Scripting 2018
 
 ## Purpose
 This repository contains a python program, data and materials relating to Fisher's iris dataset.
-This is for the final assignment for GMIT's Programming and Scripting module 2018 as part of the Higher Diploma in Data Analytics. The purpose of the project is to research and analyse the iris dataset and present the results.
+This is the final assignment for GMIT's Programming and Scripting module 2018 as part of the Higher Diploma in Data Analytics. The purpose of the project is to research and analyse the iris dataset and present the results.
 
 ## Fisher’s Iris Data Set
 
@@ -28,7 +28,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 
 
 ### Summary of Data
-## All Iris Classes
+#### All Iris Classes
 
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
 |------|-------------:|------------:|-------------:|-----------:|
@@ -53,7 +53,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 |75%   |        5.20  |      3.68   |      1.58    |    0.30    |
 |max   |        5.80  |      4.40   |      1.90    |    0.60    |
 
-## Iris Versicolor
+#### Iris Versicolor
 
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
 |------|-------------:|------------:|-------------:|-----------:|
@@ -66,7 +66,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 |75%   |        6.30  |      3.00   |      4.60    |    1.50    |
 |max   |        7.00  |      3.40   |      5.10    |    1.80    |
 
-## Iris Virginica
+#### Iris Virginica
 
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
 |------|-------------:|------------:|-------------:|-----------:|
