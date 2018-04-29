@@ -9,23 +9,28 @@ This is the final assignment for GMIT's Programming and Scripting module 2018 as
 ## Fisher’s Iris Data Set
 
 ### History of Data
-British statistician and biologist Ronald Fisher (FISHER, 1936)\
-Data collected Gaspé Peninsula, Quebec, Canad by Edgar Anderson to quantify morphologic variation of Iris flowers of three related species (Anderson, 1936)\
-Typical test case for many statistical classification techniques in machine learning such as support vector machines (Archive.ics.uci.edu, 2018)
+The iris flower dataset was introduced by British statistician and biologist Ronald Fisher (Fisher, 1936). The data was collected in the Gaspé Peninsula, Quebec, Canada by Edgar Anderson for use in his research to quantify morphologic variation of Iris flowers of three related species (Anderson, 1936).\
+Since this time it has become the test case for many statistical classification techniques in machine learning (Archive.ics.uci.edu, 2018). It is now the best known database to be found in pattern recognition literature.
 
 ### Description of Data
-50 samples each of 3 different Iris species (Iris setosa, Iris virginica and Iris versicolor) (En.wikipedia.org, 2018)\
-Length & width of sepal and petal (cm)\
-Best known database to be found in pattern recognition literature.
+The dataset contains 50 samples each of 3 different Iris species (Iris setosa, Iris virginica and Iris versicolor) (En.wikipedia.org, 2018). For each sample, the length and width of iris sepal and petal has been measured in cm.
 
 ### Analyses of Data
 #### Fisher
-Multivariate – Observation and analysis of more than one outcome variable\
+Fisher used the iris dataset for multivariate analysis, meaning that observation and analysis were carried out simultaneously for more than one outcome variable. 
+
 Example of linear discriminant analysis – Pattern recognition to find a linear combination of features that characterises classes of objects. Used to distinguish Iris species from each other by features.\
 One class is linearly separable from the other 2; the latter are not linearly separable from each other. 
 
 ## How to Use Python Program IrisAnalysis.py
-
+1. Download project folder from Github to a local location.
+2. Open a command line interpreter and navigate to the project folder.
+3. Run the program using the command Python IrisAnalysis.py.
+4. Wait for the program to carry out its analysis of the full iris dataset.
+5. Respond to the prompts for input from the program in the command line as requested. The user will be asked to select which class of iris they would like to carry out analysis on. This can be repeated a number of times if the user wishes.
+6. Once the program has finished its analysis it will end.
+7. The program will output a file named "Ouptut File.txt" which will contain tables of summary statistics of the overall dataset and for each of the iris classes selected by the user previously.
+8. The program will also output histograms for the overall dataset and for each of the iris classes selected. These will appear in individual windows and can be saved as images if required.
 
 ## Results of Analysis
 #### All Iris Classes
@@ -88,7 +93,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 
 
 ## References
-FISHER, R. (1936). THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS. Annals of Eugenics, 7(2), pp.179-188.\
+Fisher, R. (1936). THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS. Annals of Eugenics, 7(2), pp.179-188.\
 Anderson, E. (1936). The Species Problem in Iris. Annals of the Missouri Botanical Garden, 23(3), p.457.\
 Archive.ics.uci.edu. (2018). UCI Machine Learning Repository: Iris Data Set. [online] Available at: https://archive.ics.uci.edu/ml/datasets/iris [Accessed 18 Apr. 2018].
 En.wikipedia.org. (2018). Iris flower data set. [online] Available at: https://en.wikipedia.org/wiki/Iris_flower_data_set [Accessed 17 Apr. 2018].
