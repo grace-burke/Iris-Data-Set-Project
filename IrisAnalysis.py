@@ -10,19 +10,17 @@ import matplotlib.pyplot as plt
 
 # Allows analysis output to be printed into new text file
 with open("Output File.txt","w") as outputfile:
+    
     # Opens data file to read data
     with open('Data/IrisData.csv') as f:
 
         # Reads data from csv file as dataframe using pandas library, giving each column a title
         column_names = ['Sepal Length','Sepal Width','Petal Length','Petal Width','Class']
         Iris = pd.read_csv(f, header=None,names=column_names)
-        # https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html
     
     outputfile.write("All Iris Classes\n")
     # Produces a summary of each column of the data and writes it as a string to the output text file
     outputfile.write(Iris.describe().round(decimals=2).to_string()+"\n\n")
-    # https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
-    # https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_string.html
     
     # Sets up the bin values and steps for a histogram of the data using numpy library
     bin_values = np.arange(start=0, stop=8, step=0.2)
