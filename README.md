@@ -31,10 +31,10 @@ One class is linearly separable from the other 2; the latter are not linearly se
 
 
 ### Graphs
-![Figure 1 Histogram of All Iris Data](IrisDatasetHistogram.png)\
-![Figure 2 Histogram of Iris Setosa Data](IrisSetosaHistogram.png)\
-![Figure 3 Histogram of Iris Versicolor Data](IrisVersicolorHistogram.png)\
-![Figure 4 Histogram of Iris Virginica Data](IrisVirginicaHistogram.png)
+![Figure 1 - Histogram of All Iris Data](Images/IrisDatasetHistogram.png)\
+![Figure 2 - Histogram of Iris Setosa Data](Images/IrisSetosaHistogram.png)\
+![Figure 3 - Histogram of Iris Versicolor Data](Images/IrisVersicolorHistogram.png)\
+![Figure 4 - Histogram of Iris Virginica Data](Images/IrisVirginicaHistogram.png)
 
 
 ### References
