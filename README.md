@@ -40,7 +40,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 |75%   |        6.40  |      3.30   |      5.10    |    1.80    |
 |max   |        7.90  |      4.40   |      6.90    |    2.50    |
 
-## Iris Setosa
+#### Iris Setosa
 
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
 |------|-------------:|------------:|-------------:|-----------:|
