@@ -27,7 +27,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 ## How to Use Python Program IrisAnalysis.py
 
 
-## Summary of Data
+## Results of Analysis
 #### All Iris Classes
 
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
@@ -80,9 +80,9 @@ One class is linearly separable from the other 2; the latter are not linearly se
 |max   |        7.90  |      3.80   |      6.90    |    2.50    |
 
 ## Graphs
-![Figure 1 - Histogram of All Iris Data](Images/IrisDatasetHistogram.png)\
-![Figure 2 - Histogram of Iris Setosa Data](Images/IrisSetosaHistogram.png)\
-![Figure 3 - Histogram of Iris Versicolor Data](Images/IrisVersicolorHistogram.png)\
+![Figure 1 - Histogram of All Iris Data](Images/IrisDatasetHistogram.png)
+![Figure 2 - Histogram of Iris Setosa Data](Images/IrisSetosaHistogram.png)
+![Figure 3 - Histogram of Iris Versicolor Data](Images/IrisVersicolorHistogram.png)
 ![Figure 4 - Histogram of Iris Virginica Data](Images/IrisVirginicaHistogram.png)
 
 
