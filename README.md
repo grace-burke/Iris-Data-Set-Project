@@ -29,6 +29,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 
 ### Summary of Data
 All Iris Classes\
+
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
 |------|--------------|-------------|--------------|------------|
 |mean  |        5.84  |      3.05   |      3.76    |    1.20    |
@@ -38,7 +39,9 @@ All Iris Classes\
 |50%   |        5.80  |      3.00   |      4.35    |    1.30    |
 |75%   |        6.40  |      3.30   |      5.10    |    1.80    |
 |max   |        7.90  |      4.40   |      6.90    |    2.50    |
+
 Iris setosa\
+
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
 |------|--------------|-------------|--------------|------------|
 |count |       50.00  |     50.00   |     50.00    |   50.00    |
@@ -51,6 +54,7 @@ Iris setosa\
 |max   |        5.80  |      4.40   |      1.90    |    0.60    |
 
 Iris versicolor\
+
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
 |------|--------------|-------------|--------------|------------|
 |count |       50.00  |     50.00   |     50.00    |   50.00    |
@@ -63,6 +67,7 @@ Iris versicolor\
 |max   |        7.00  |      3.40   |      5.10    |    1.80    |
 
 Iris virginica\
+
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
 |------|--------------|-------------|--------------|------------|
 |count |       50.00  |     50.00   |     50.00    |   50.00    |
