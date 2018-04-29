@@ -24,10 +24,10 @@ Multivariate – Observation and analysis of more than one outcome variable\
 Example of linear discriminant analysis – Pattern recognition to find a linear combination of features that characterises classes of objects. Used to distinguish Iris species from each other by features.\
 One class is linearly separable from the other 2; the latter are not linearly separable from each other. 
 
-### How to Use Python Program IrisAnalysis.py
+## How to Use Python Program IrisAnalysis.py
 
 
-### Summary of Data
+## Summary of Data
 #### All Iris Classes
 
 |      | Sepal Length | Sepal Width | Petal Length | Petal Width|
@@ -79,14 +79,14 @@ One class is linearly separable from the other 2; the latter are not linearly se
 |75%   |        6.90  |      3.18   |      5.88    |    2.30    |
 |max   |        7.90  |      3.80   |      6.90    |    2.50    |
 
-### Graphs
+## Graphs
 ![Figure 1 - Histogram of All Iris Data](Images/IrisDatasetHistogram.png)\
 ![Figure 2 - Histogram of Iris Setosa Data](Images/IrisSetosaHistogram.png)\
 ![Figure 3 - Histogram of Iris Versicolor Data](Images/IrisVersicolorHistogram.png)\
 ![Figure 4 - Histogram of Iris Virginica Data](Images/IrisVirginicaHistogram.png)
 
 
-### References
+## References
 FISHER, R. (1936). THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS. Annals of Eugenics, 7(2), pp.179-188.\
 Anderson, E. (1936). The Species Problem in Iris. Annals of the Missouri Botanical Garden, 23(3), p.457.\
 Archive.ics.uci.edu. (2018). UCI Machine Learning Repository: Iris Data Set. [online] Available at: https://archive.ics.uci.edu/ml/datasets/iris [Accessed 18 Apr. 2018].
