@@ -34,7 +34,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 
 ## Results of Analysis
 Below is the contents of "Output File.txt" when analysis has been carried out for each of the iris classes in turn.\
-The statistics produced for each column are as follows:\
+The statistics produced for each column are as follows:
 - Count: This gives the total number of data points analysed
 - Mean: This gives the arithmetic mean of the data points analysed
 - Std: This gives the standard deviation of the data points
