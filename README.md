@@ -15,7 +15,7 @@ Since this time it has become the test case for many statistical classification 
 ### Description of Data
 The dataset contains 50 samples each of 3 different Iris species (Iris setosa, Iris virginica and Iris versicolor) (En.wikipedia.org, 2018). For each sample, the length and width of iris sepal and petal has been measured in cm.
 
-### Analysis of Data
+### Previous Analysis of Data
 #### Fisher
 Fisher used the iris dataset for multivariate analysis, meaning that observation and analysis were carried out simultaneously for more than one outcome variable. 
 
