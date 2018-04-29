@@ -15,7 +15,7 @@ Since this time it has become the test case for many statistical classification 
 ### Description of Data
 The dataset contains 50 samples each of 3 different Iris species (Iris setosa, Iris virginica and Iris versicolor) (En.wikipedia.org, 2018). For each sample, the length and width of iris sepal and petal has been measured in cm.
 
-### Analyses of Data
+### Analysis of Data
 #### Fisher
 Fisher used the iris dataset for multivariate analysis, meaning that observation and analysis were carried out simultaneously for more than one outcome variable. 
 
@@ -117,7 +117,7 @@ Below are the histograms produced by the program when analysis has been carried 
 
 
 ## References
-Fisher, R. (1936). THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS. Annals of Eugenics, 7(2), pp.179-188.\
+Fisher, R. (1936). The Use of Multiple Measurements in Taxonomic Problems. Annals of Eugenics, 7(2), pp.179-188.\
 Anderson, E. (1936). The Species Problem in Iris. Annals of the Missouri Botanical Garden, 23(3), p.457.\
 Archive.ics.uci.edu. (2018). UCI Machine Learning Repository: Iris Data Set. [online] Available at: https://archive.ics.uci.edu/ml/datasets/iris [Accessed 18 Apr. 2018].
 En.wikipedia.org. (2018). Iris flower data set. [online] Available at: https://en.wikipedia.org/wiki/Iris_flower_data_set [Accessed 17 Apr. 2018].
