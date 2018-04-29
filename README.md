@@ -29,7 +29,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 4. Wait for the program to carry out its analysis of the full iris dataset.
 5. Respond to the prompts for input from the program in the command line as requested. The user will be asked to select which class of iris they would like to carry out analysis on. This can be repeated a number of times if the user wishes.
 6. Once the program has finished its analysis it will end.
-7. The program will output a file named "Ouptut File.txt" which will contain tables of summary statistics of the overall dataset and for each of the iris classes selected by the user previously.
+7. The program will output a file named "Ouptut File.txt" in the project folder which will contain tables of summary statistics of the overall dataset and for each of the iris classes selected by the user previously.
 8. The program will also output histograms for the overall dataset and for each of the iris classes selected. These will appear in individual windows and can be saved as images if required.
 
 ## Results of Analysis
