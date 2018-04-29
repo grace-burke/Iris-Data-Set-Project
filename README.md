@@ -97,6 +97,7 @@ The statistics produced for each column are as follows:
 |max   |        7.90  |      3.80   |      6.90    |    2.50    |
 
 ## Graphs
+Below are the histograms produced by the program when analysis has been carried out for each of the iris classes in turn. The histograms show the frequency of each value divided into bins of 0.2cm from 0cm to 8cm.
 ![Figure 1 - Histogram of All Iris Data](Images/IrisDatasetHistogram.png)
 ![Figure 2 - Histogram of Iris Setosa Data](Images/IrisSetosaHistogram.png)
 ![Figure 3 - Histogram of Iris Versicolor Data](Images/IrisVersicolorHistogram.png)
