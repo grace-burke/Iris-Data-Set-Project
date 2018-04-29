@@ -1,4 +1,4 @@
-Iris Data Set Project
+Iris Dataset Project
 ========================
 Programming &amp; Scripting 2018
 
